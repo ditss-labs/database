@@ -47,20 +47,212 @@
       { "display_text": "📢 CHANNEL", "url": "https://whatsapp.com/channel/0029VaN28lnGU3BROmG4Tx3j" }
     ]
   },
-  "menuDownloader": {
-    "title": "📥 MENU DOWNLOADER",
-    "content": "╔══════════════════╗\n║     *📥 MENU DOWNLOADER*     ║\n╚══════════════════╝\n\n╭───「 *YOUTUBE* 」\n│ • {usedPrefix}ytsearch <query>\n│   *Contoh:* {usedPrefix}ytsearch lathi\n│\n│ • {usedPrefix}ytmp3 <url>\n│   *Contoh:* {usedPrefix}ytmp3 https://youtu.be/xxx\n│\n│ • {usedPrefix}ytmp4 <url> [quality]\n│   *Quality:* 144, 240, 360, 480, 720, 1080\n│   *Contoh:* {usedPrefix}ytmp4 https://youtu.be/xxx 720\n│\n├───「 *TIKTOK* 」\n│ • {usedPrefix}tiktok <url>\n│   *Contoh:* {usedPrefix}tiktok https://tiktok.com/xxx\n│\n│ • {usedPrefix}tiktokmp3 <url>\n│   *Contoh:* {usedPrefix}tiktokmp3 https://tiktok.com/xxx\n│\n├───「 *INSTAGRAM* 」\n│ • {usedPrefix}ig <url>\n│   *Contoh:* {usedPrefix}ig https://instagram.com/p/xxx\n│\n│ • {usedPrefix}igstory <username>\n│   *Contoh:* {usedPrefix}igstory jokowi\n│\n├───「 *FACEBOOK* 」\n│ • {usedPrefix}fb <url>\n│   *Contoh:* {usedPrefix}fb https://facebook.com/xxx\n│\n├───「 *TWITTER* 」\n│ • {usedPrefix}twitter <url>\n│   *Contoh:* {usedPrefix}twitter https://twitter.com/xxx\n│\n├───「 *SPOTIFY* 」\n│ • {usedPrefix}spotify <url>\n│   *Contoh:* {usedPrefix}spotify https://open.spotify.com/xxx\n│\n│ • {usedPrefix}spotifysearch <query>\n│   *Contoh:* {usedPrefix}spotifysearch lathi\n│\n├───「 *SOUNDCLOUD* 」\n│ • {usedPrefix}soundcloud <url>\n│   *Contoh:* {usedPrefix}soundcloud https://soundcloud.com/xxx\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan benar!*\n🔰 *Contoh:* {usedPrefix}ytsearch hindia rumah ke rumah"
+"menuDownloader": {
+  "title": "📥 MENU DOWNLOADER",
+  "description": "Download dari berbagai platform!",
+  "total_commands": 25,
+  "update": "2024-01-17",
+  
+  "sections": {
+    "social_media": {
+      "title": "📱 SOCIAL MEDIA",
+      "commands": {
+        "tiktok": {
+          "command": ".tiktok",
+          "example": ".tiktok https://vt.tiktok.com/ZSuQ7GVxw/",
+          "description": "Download video TikTok tanpa watermark",
+          "aliases": [".tt", ".tiktokdl", ".ttdl"],
+          "maintenance": false
+        },
+        "instagram": {
+          "command": ".ig",
+          "example": ".ig https://www.instagram.com/p/CxG7Hh9S0J/",
+          "description": "Download postingan Instagram (foto/video/reels)",
+          "aliases": [".instagram", ".igdl", ".insta"],
+          "maintenance": false
+        },
+        "igstory": {
+          "command": ".igstory",
+          "example": ".igstory username",
+          "description": "Download Instagram story user",
+          "aliases": [".story", ".igst"],
+          "maintenance": false
+        },
+        "facebook": {
+          "command": ".fb",
+          "example": ".fb https://fb.watch/xyz123/",
+          "description": "Download Facebook video",
+          "aliases": [".facebook", ".fbdl", ".fvideo"],
+          "maintenance": false
+        },
+        "twitter": {
+          "command": ".twitter",
+          "example": ".twitter https://twitter.com/user/status/123456789",
+          "description": "Download Twitter/X video & GIF",
+          "aliases": [".tw", ".x", ".twdl"],
+          "maintenance": false
+        },
+        "pinterest": {
+          "command": ".pin",
+          "example": ".pin https://pin.it/xyz123",
+          "description": "Download video/gambar Pinterest",
+          "aliases": [".pinterest", ".pindl"],
+          "maintenance": false
+        },
+        "snackvideo": {
+          "command": ".snack",
+          "example": ".snack https://sck.io/xyz123",
+          "description": "Download Snack Video tanpa watermark",
+          "aliases": [".snackvideo", ".sv"],
+          "maintenance": false
+        },
+        "likee": {
+          "command": ".likee",
+          "example": ".likee https://likee.com/v/xyz123",
+          "description": "Download video Likee",
+          "aliases": [".like"],
+          "maintenance": false
+        },
+        "douyin": {
+          "command": ".douyin",
+          "example": ".douyin https://douyin.com/video/123456",
+          "description": "Download video Douyin (versi China TikTok)",
+          "aliases": [".dy"],
+          "maintenance": false
+        }
+      }
+    },
+    
+    "music_audio": {
+      "title": "🎵 MUSIC & AUDIO",
+      "commands": {
+        "youtube": {
+          "command": ".yt",
+          "example": ".yt https://youtu.be/dQw4w9WgXcQ",
+          "description": "Download YouTube video (MP4/MP3)",
+          "aliases": [".youtube", ".ytdl", ".ytmp4", ".ytmp3"],
+          "maintenance": false
+        },
+        "spotify": {
+          "command": ".spotify",
+          "example": ".spotify https://open.spotify.com/track/xyz123",
+          "description": "Download lagu dari Spotify (MP3)",
+          "aliases": [".sp", ".spdl"],
+          "maintenance": false
+        },
+        "soundcloud": {
+          "command": ".sc",
+          "example": ".sc https://soundcloud.com/user/track",
+          "description": "Download lagu dari SoundCloud (MP3)",
+          "aliases": [".soundcloud", ".scdl"],
+          "maintenance": false
+        },
+        "joox": {
+          "command": ".joox",
+          "example": ".joox judul lagu",
+          "description": "Download lagu dari Joox",
+          "aliases": [".jx"],
+          "maintenance": false
+        },
+        "kuwo": {
+          "command": ".kuwo",
+          "example": ".kuwo judul lagu",
+          "description": "Download lagu dari KuWo Music",
+          "aliases": [".kw"],
+          "maintenance": false
+        },
+        "lagu": {
+          "command": ".lagu",
+          "example": ".lagu tak ingin usai",
+          "description": "Cari & download lagu (YouTube Music)",
+          "aliases": [".song", ".musik"],
+          "maintenance": false
+        }
+      }
+    },
+    
+    "cloud_storage": {
+      "title": "☁️ CLOUD STORAGE",
+      "commands": {
+        "terabox": {
+          "command": ".terabox",
+          "example": ".terabox https://terabox.com/sharing/xyz123",
+          "description": "Download file dari TeraBox",
+          "aliases": [".tb", ".tbox"],
+          "maintenance": false
+        },
+        "mediafire": {
+          "command": ".mf",
+          "example": ".mf https://www.mediafire.com/file/xyz123",
+          "description": "Download file dari MediaFire",
+          "aliases": [".mediafire", ".mfire"],
+          "maintenance": false
+        },
+        "zippyshare": {
+          "command": ".zippy",
+          "example": ".zippy https://zippyshare.com/xyz123",
+          "description": "Download file dari ZippyShare",
+          "aliases": [".zs", ".zippyshare"],
+          "maintenance": false
+        },
+        "gdrive": {
+          "command": ".gdrive",
+          "example": ".gdrive https://drive.google.com/file/d/xyz123",
+          "description": "Download file dari Google Drive",
+          "aliases": [".gd", ".googledrive"],
+          "maintenance": false
+        },
+        "gdtot": {
+          "command": ".gdtot",
+          "example": ".gdtot https://gdtot.com/file/xyz123",
+          "description": "Download file dari GDTot",
+          "aliases": [".gdt"],
+          "maintenance": false
+        }
+      }
+    },
+    
+    "other": {
+      "title": "🔧 OTHER DOWNLOADERS",
+      "commands": {
+        "capcut": {
+          "command": ".capcut",
+          "example": ".capcut https://capcut.com/template/xyz123",
+          "description": "Download template CapCut",
+          "aliases": [".cc", ".cap"],
+          "maintenance": false
+        },
+        "pixiv": {
+          "command": ".pixiv",
+          "example": ".pixiv https://pixiv.net/artworks/123456",
+          "description": "Download ilustrasi dari Pixiv",
+          "aliases": [".px"],
+          "maintenance": false
+        },
+        "app": {
+          "command": ".app",
+          "example": ".app capcut",
+          "description": "Cari link download APK/mod aplikasi",
+          "aliases": [".apk", ".mod"],
+          "maintenance": false
+        },
+        "all": {
+          "command": ".alldl",
+          "example": ".alldl https://link.url",
+          "description": "Auto detect & download dari berbagai platform",
+          "aliases": [".download", ".dl"],
+          "maintenance": false
+        }
+      }
+    }
   },
-  "menuSearch": {
-    "title": "🔍 MENU SEARCH",
-    "content": "╔══════════════════╗\n║      *🔍 MENU SEARCH*      ║\n╚══════════════════╝\n\n╭───「 *YOUTUBE* 」\n│ • {usedPrefix}ytsearch <query>\n│   *Contoh:* {usedPrefix}ytsearch lathi\n│\n├───「 *LIRIK* 」\n│ • {usedPrefix}lirik <judul lagu>\n│   *Contoh:* {usedPrefix}lirik lathi\n│\n├───「 *GOOGLE* 」\n│ • {usedPrefix}google <query>\n│   *Contoh:* {usedPrefix}google cara membuat bot wa\n│\n├───「 *IMAGE* 」\n│ • {usedPrefix}image <query>\n│   *Contoh:* {usedPrefix}image kucing lucu\n│\n├───「 *WIKIPEDIA* 」\n│ • {usedPrefix}wiki <query>\n│   *Contoh:* {usedPrefix}wiki soekarno\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan benar!*"
-  },
-  "menuGames": {
-    "title": "🎮 MENU GAMES",
-    "content": "╔══════════════════╗\n║      *🎮 MENU GAMES*      ║\n╚══════════════════╝\n\n╭───「 *TEBAK GAMBAR* 」\n│ • {usedPrefix}tebakgambar\n│   *Mulai game tebak gambar*\n│\n├───「 *TEBAK KATA* 」\n│ • {usedPrefix}tebakkata\n│   *Mulai game tebak kata*\n│\n├───「 *TEBAK LAGU* 」\n│ • {usedPrefix}tebaklagu\n│   *Mulai game tebak lagu*\n│\n├───「 *SUWIT* 」\n│ • {usedPrefix}suwit <batu/kertas/gunting>\n│   *Contoh:* {usedPrefix}suwit batu\n│\n├───「 *SAMBUNG KATA* 」\n│ • {usedPrefix}sambungkata\n│   *Mulai game sambung kata*\n│\n╰────────────────────\n\n📌 *Selamat bermain!*"
-  },
-  "menuLainnya": {
-    "title": "⚙️ MENU LAINNYA",
-    "content": "╔══════════════════╗\n║     *⚙️ MENU LAINNYA*     ║\n╚══════════════════╝\n\n╭───「 *INFORMASI* 」\n│ • {usedPrefix}infobot\n│   *Info tentang bot*\n│\n│ • {usedPrefix}owner\n│   *Kontak owner bot*\n│\n│ • {usedPrefix}rules\n│   *Peraturan bot*\n│\n├───「 *KONVERTER* 」\n│ • {usedPrefix}sticker\n│   *Buat sticker dari gambar*\n│\n│ • {usedPrefix}toimg\n│   *Ubah sticker ke gambar*\n│\n│ • {usedPrefix}tourl\n│   *Ubah media ke link*\n│\n├───「 *LAIN-LAIN* 」\n│ • {usedPrefix}ping\n│   *Cek kecepatan bot*\n│\n│ • {usedPrefix}runtime\n│   *Cek lama bot online*\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan bijak!*"
+  
+  "total_commands": {
+    "social_media": 9,
+    "music_audio": 6,
+    "cloud_storage": 5,
+    "other": 4,
+    "all": 24
   }
+}
 }
