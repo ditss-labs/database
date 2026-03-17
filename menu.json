@@ -2,225 +2,65 @@
   "menuUtama": {
     "title": "📋 MENU UTAMA BOT",
     "sections": [
-      {
-        "title": "📥 DOWNLOADER",
-        "rows": [
-          {
-            "title": "📥 Downloader",
-            "description": "YouTube, TikTok, IG, FB, Twitter, Spotify",
-            "id": "menu download"
-          }
-        ]
-      },
-      {
-        "title": "🔍 SEARCH & STALKING",
-        "rows": [
-          {
-            "title": "🔍 Search",
-            "description": "Google, YouTube, Lirik, Wikipedia",
-            "id": "menu search"
-          },
-          {
-            "title": "🕵️ Stalking",
-            "description": "Stalk IG, TikTok, GitHub",
-            "id": "menu stalking"
-          }
-        ]
-      },
-      {
-        "title": "🎮 GAMES",
-        "rows": [
-          {
-            "title": "🎮 Games",
-            "description": "Tebak gambar, kata, angka, family100",
-            "id": "menu games"
-          }
-        ]
-      },
-      {
-        "title": "🎨 STIKER & EDITOR",
-        "rows": [
-          {
-            "title": "🎨 Stiker",
-            "description": "Buat stiker, stiker gif, stiker wajah",
-            "id": "menu stiker"
-          },
-          {
-            "title": "✂️ Editor",
-            "description": "Edit foto, circle, blur, filter",
-            "id": "menu editor"
-          }
-        ]
-      },
-      {
-        "title": "🔧 TOOLS & CONVERTER",
-        "rows": [
-          {
-            "title": "🔧 Tools",
-            "description": "Cuaca, QR, shortlink, translate",
-            "id": "menu tools"
-          },
-          {
-            "title": "🔄 Converter",
-            "description": "Convert gambar, video, audio",
-            "id": "menu converter"
-          }
-        ]
-      },
-      {
-        "title": "🕌 ISLAMI & EDUKASI",
-        "rows": [
-          {
-            "title": "🕌 Islami",
-            "description": "Al-Quran, jadwal sholat, doa",
-            "id": "menu islami"
-          },
-          {
-            "title": "📚 Edukasi",
-            "description": "Wikipedia, KBBI, brainly",
-            "id": "menu edukasi"
-          }
-        ]
-      },
-      {
-        "title": "🎵 MUSIK & RANDOM",
-        "rows": [
-          {
-            "title": "🎵 Musik",
-            "description": "Putar lagu, lirik, chord, radio",
-            "id": "menu musik"
-          },
-          {
-            "title": "🎲 Random",
-            "description": "Pantun, quotes, fakta unik",
-            "id": "menu random"
-          },
-          {
-            "title": "📈 Trending",
-            "description": "Trending YouTube, TikTok, Twitter",
-            "id": "menu trending"
-          }
-        ]
-      },
-      {
-        "title": "👥 GROUP & REWARD",
-        "rows": [
-          {
-            "title": "👥 Group",
-            "description": "Hidetag, buka/tutup group, promote",
-            "id": "menu group"
-          },
-          {
-            "title": "🎁 Reward",
-            "description": "Daily, limit, level, profil",
-            "id": "menu reward"
-          }
-        ]
-      },
-      {
-        "title": "🤖 JADIBOT & AI",
-        "rows": [
-          {
-            "title": "🤖 Jadibot",
-            "description": "Clone bot, buat session",
-            "id": "menu jadibot"
-          },
-          {
-            "title": "🤖 AI",
-            "description": "ChatGPT, image generator",
-            "id": "menu ai"
-          }
-        ]
-      },
-      {
-        "title": "🌸 ANIME & WALLPAPER",
-        "rows": [
-          {
-            "title": "🌸 Anime",
-            "description": "Info anime, waifu, wallpaper",
-            "id": "menu anime"
-          }
-        ]
-      },
-      {
-        "title": "📺 STREAMING & BERITA",
-        "rows": [
-          {
-            "title": "📺 Streaming",
-            "description": "Nonton film, series, anime",
-            "id": "menu streaming"
-          },
-          {
-            "title": "📰 Berita",
-            "description": "Berita terkini, bola, teknologi",
-            "id": "menu berita"
-          }
-        ]
-      },
-      {
-        "title": "🍳 RESEP & CERITA",
-        "rows": [
-          {
-            "title": "🍳 Resep",
-            "description": "Resep masakan, makanan, kue",
-            "id": "menu resep"
-          },
-          {
-            "title": "📖 Cerita",
-            "description": "Cerpen, novel, wattpad",
-            "id": "menu cerita"
-          }
-        ]
-      },
-      {
-        "title": "💰 PREMIUM & JASA",
-        "rows": [
-          {
-            "title": "💰 Premium",
-            "description": "Fitur premium, beli premium",
-            "id": "menu premium"
-          },
-          {
-            "title": "🤝 Jasa",
-            "description": "Pembuatan bot, panel, domain",
-            "id": "menu jasa"
-          }
-        ]
-      },
-      {
-        "title": "ℹ️ INFO",
-        "rows": [
-          {
-            "title": "ℹ️ Info",
-            "description": "Info bot, owner, speed, lapor bug",
-            "id": "menu info"
-          }
-        ]
-      }
+      { "title": "📥 DOWNLOADER", "rows": [{ "title": "📥 Downloader", "description": "YouTube, TikTok, IG, FB, Twitter, Spotify, SoundCloud", "id": "menu download" }] },
+      { "title": "🔍 SEARCH", "rows": [{ "title": "🔍 Search", "description": "Google, YouTube, Lirik, Wikipedia, Gambar, Resep, Berita", "id": "menu search" }] },
+      { "title": "🕵️ STALKING", "rows": [{ "title": "🕵️ Stalking", "description": "Stalk IG, TikTok, GitHub, YouTube, npm, FB, Twitter", "id": "menu stalking" }] },
+      { "title": "📱 SOSMED", "rows": [{ "title": "📱 Sosmed", "description": "Cek stats IG, TikTok, FB, Twitter, YouTube, Threads", "id": "menu sosmed" }] },
+      { "title": "🎮 GAMES", "rows": [{ "title": "🎮 Games", "description": "Tebak gambar, kata, angka, family100, puzzle, susun kata", "id": "menu games" }] },
+      { "title": "🎨 STIKER", "rows": [{ "title": "🎨 Stiker", "description": "Buat stiker, stiker gif, stiker wajah, circle, kertas", "id": "menu stiker" }] },
+      { "title": "✂️ EDITOR", "rows": [{ "title": "✂️ Editor", "description": "Edit foto, circle, blur, flip, filter, romantis, glitch", "id": "menu editor" }] },
+      { "title": "🔧 TOOLS", "rows": [{ "title": "🔧 Tools", "description": "Cuaca, QR, shortlink, translate, cek IP, cek koneksi", "id": "menu tools" }] },
+      { "title": "🔄 CONVERTER", "rows": [{ "title": "🔄 Converter", "description": "Convert gambar, video, audio, dokumen, ke PDF", "id": "menu converter" }] },
+      { "title": "🕌 ISLAMI", "rows": [{ "title": "🕌 Islami", "description": "Al-Quran, jadwal sholat, doa, kisah nabi, asmaul husna", "id": "menu islami" }] },
+      { "title": "📚 EDUKASI", "rows": [{ "title": "📚 Edukasi", "description": "Wikipedia, KBBI, brainly, rumus, jadwal pelajaran", "id": "menu edukasi" }] },
+      { "title": "🎵 MUSIK", "rows": [{ "title": "🎵 Musik", "description": "Putar lagu, lirik, chord, radio, playlist, lagu viral", "id": "menu musik" }] },
+      { "title": "📈 TRENDING", "rows": [{ "title": "📈 Trending", "description": "Trending YouTube, TikTok, Twitter, Google, Instagram", "id": "menu trending" }] },
+      { "title": "🎲 RANDOM", "rows": [{ "title": "🎲 Random", "description": "Pantun, quotes, fakta unik, joke, cerita, kata bijak", "id": "menu random" }] },
+      { "title": "👥 GROUP", "rows": [{ "title": "👥 Group", "description": "Hidetag, buka/tutup group, promote/kick, link group", "id": "menu group" }] },
+      { "title": "🤖 JADIBOT", "rows": [{ "title": "🤖 Jadibot", "description": "Clone bot, jadi bot sementara, buat session", "id": "menu jadibot" }] },
+      { "title": "🎁 REWARD", "rows": [{ "title": "🎁 Reward", "description": "Daily, limit, level, exp, profil, transfer limit", "id": "menu reward" }] },
+      { "title": "🤖 AI", "rows": [{ "title": "🤖 AI", "description": "ChatGPT, Bing AI, Bard, image generator, AI story", "id": "menu ai" }] },
+      { "title": "🌸 ANIME", "rows": [{ "title": "🌸 Anime", "description": "Info anime, karakter, wallpaper, quotes anime, waifu", "id": "menu anime" }] },
+      { "title": "💰 PREMIUM", "rows": [{ "title": "💰 Premium", "description": "Fitur premium, unlock limit, beli premium", "id": "menu premium" }] },
+      { "title": "📺 STREAMING", "rows": [{ "title": "📺 Streaming", "description": "Nonton film, series, anime, drama, live tv", "id": "menu streaming" }] },
+      { "title": "📰 BERITA", "rows": [{ "title": "📰 Berita", "description": "Berita terkini, bola, teknologi, ekonomi, politik", "id": "menu berita" }] },
+      { "title": "🍳 RESEP", "rows": [{ "title": "🍳 Resep", "description": "Resep masakan, makanan, kue, minuman, tradisional", "id": "menu resep" }] },
+      { "title": "💼 FINANCE", "rows": [{ "title": "💼 Finance", "description": "Cek crypto, saham, kurs, harga emas, bitcoin", "id": "menu finance" }] },
+      { "title": "🏥 KESEHATAN", "rows": [{ "title": "🏥 Kesehatan", "description": "Info kesehatan, kalori, obat, penyakit, tips sehat", "id": "menu kesehatan" }] },
+      { "title": "⚽ OLAHRAGA", "rows": [{ "title": "⚽ Olahraga", "description": "Skor bola, jadwal, klasemen, berita bola", "id": "menu olahraga" }] },
+      { "title": "🎬 FILM", "rows": [{ "title": "🎬 Film", "description": "Info film, trailer, bioskop, rating film", "id": "menu film" }] },
+      { "title": "📖 CERITA", "rows": [{ "title": "📖 Cerita", "description": "Cerpen, novel, wattpad, kisah inspiratif", "id": "menu cerita" }] },
+      { "title": "🎨 WALLPAPER", "rows": [{ "title": "🎨 Wallpaper", "description": "Koleksi wallpaper keren, HD, 4K, anime", "id": "menu wallpaper" }] },
+      { "title": "🔞 DEWASA", "rows": [{ "title": "🔞 Dewasa", "description": "Fitur 18+ (khusus umur cukup)", "id": "menu dewasa" }] },
+      { "title": "🎁 GIVEAWAY", "rows": [{ "title": "🎁 Giveaway", "description": "Event giveaway, hadiah, undian, pemenang", "id": "menu giveaway" }] },
+      { "title": "🤝 JASA", "rows": [{ "title": "🤝 Jasa", "description": "Jasa pembuatan bot, panel, sc, domain", "id": "menu jasa" }] },
+      { "title": "💬 CHAT", "rows": [{ "title": "💬 Chat", "description": "Chat dengan bot, chat sesama user", "id": "menu chat" }] },
+      { "title": "📞 CALL", "rows": [{ "title": "📞 Call", "description": "Fitur panggilan suara (beta)", "id": "menu call" }] },
+      { "title": "ℹ️ INFO", "rows": [{ "title": "ℹ️ Info", "description": "Info bot, owner, speed, server, lapor bug", "id": "menu info" }] }
     ],
     "quickReply": [
-      {
-        "display_text": "📞 KONTAK OWNER",
-        "id": "owner"
-      },
-      {
-        "display_text": "💰 DONASI",
-        "id": "donasi"
-      }
+      { "display_text": "📞 KONTAK OWNER", "id": "owner" },
+      { "display_text": "💰 DONASI", "id": "donasi" }
     ],
     "ctaUrl": [
-      {
-        "display_text": "🌐 WEBSITE",
-        "url": "https://www.asuma.my.id"
-      },
-      {
-        "display_text": "📢 CHANNEL",
-        "url": "https://whatsapp.com/channel/0029VaN28lnGU3BROmG4Tx3j"
-      }
+      { "display_text": "🌐 WEBSITE", "url": "https://www.asuma.my.id" },
+      { "display_text": "📢 CHANNEL", "url": "https://whatsapp.com/channel/0029VaN28lnGU3BROmG4Tx3j" }
     ]
   },
   "menuDownloader": {
     "title": "📥 MENU DOWNLOADER",
-    "content": "╔══════════════════╗\n║     *📥 MENU DOWNLOADER*     ║\n╚══════════════════╝\n\n╭───「 *YOUTUBE* 」\n│ • {usedPrefix}ytsearch <query>\n│   *Contoh:* {usedPrefix}ytsearch lathi\n│\n│ • {usedPrefix}ytmp3 <url>\n│   *Contoh:* {usedPrefix}ytmp3 https://youtu.be/xxx\n│\n│ • {usedPrefix}ytmp4 <url> [quality]\n│   *Quality:* 144, 240, 360, 480, 720, 1080\n│   *Contoh:* {usedPrefix}ytmp4 https://youtu.be/xxx 720\n│\n├───「 *TIKTOK* 」\n│ • {usedPrefix}tiktok <url>\n│   *Contoh:* {usedPrefix}tiktok https://tiktok.com/xxx\n│\n│ • {usedPrefix}tiktokmp3 <url>\n│   *Contoh:* {usedPrefix}tiktokmp3 https://tiktok.com/xxx\n│\n├───「 *INSTAGRAM* 」\n│ • {usedPrefix}ig <url>\n│   *Contoh:* {usedPrefix}ig https://instagram.com/p/xxx\n│\n├───「 *FACEBOOK* 」\n│ • {usedPrefix}fb <url>\n│   *Contoh:* {usedPrefix}fb https://facebook.com/xxx\n│\n├───「 *TWITTER* 」\n│ • {usedPrefix}twitter <url>\n│   *Contoh:* {usedPrefix}twitter https://twitter.com/xxx\n│\n├───「 *SPOTIFY* 」\n│ • {usedPrefix}spotify <url>\n│   *Contoh:* {usedPrefix}spotify https://open.spotify.com/xxx\n│\n├───「 *SOUNDCLOUD* 」\n│ • {usedPrefix}soundcloud <url>\n│   *Contoh:* {usedPrefix}soundcloud https://soundcloud.com/xxx\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan benar!*\n🔰 *Contoh:* {usedPrefix}ytsearch hindia rumah ke rumah"
+    "content": "╔══════════════════╗\n║     *📥 MENU DOWNLOADER*     ║\n╚══════════════════╝\n\n╭───「 *YOUTUBE* 」\n│ • {usedPrefix}ytsearch <query>\n│   *Contoh:* {usedPrefix}ytsearch lathi\n│\n│ • {usedPrefix}ytmp3 <url>\n│   *Contoh:* {usedPrefix}ytmp3 https://youtu.be/xxx\n│\n│ • {usedPrefix}ytmp4 <url> [quality]\n│   *Quality:* 144, 240, 360, 480, 720, 1080\n│   *Contoh:* {usedPrefix}ytmp4 https://youtu.be/xxx 720\n│\n├───「 *TIKTOK* 」\n│ • {usedPrefix}tiktok <url>\n│   *Contoh:* {usedPrefix}tiktok https://tiktok.com/xxx\n│\n│ • {usedPrefix}tiktokmp3 <url>\n│   *Contoh:* {usedPrefix}tiktokmp3 https://tiktok.com/xxx\n│\n├───「 *INSTAGRAM* 」\n│ • {usedPrefix}ig <url>\n│   *Contoh:* {usedPrefix}ig https://instagram.com/p/xxx\n│\n│ • {usedPrefix}igstory <username>\n│   *Contoh:* {usedPrefix}igstory jokowi\n│\n├───「 *FACEBOOK* 」\n│ • {usedPrefix}fb <url>\n│   *Contoh:* {usedPrefix}fb https://facebook.com/xxx\n│\n├───「 *TWITTER* 」\n│ • {usedPrefix}twitter <url>\n│   *Contoh:* {usedPrefix}twitter https://twitter.com/xxx\n│\n├───「 *SPOTIFY* 」\n│ • {usedPrefix}spotify <url>\n│   *Contoh:* {usedPrefix}spotify https://open.spotify.com/xxx\n│\n│ • {usedPrefix}spotifysearch <query>\n│   *Contoh:* {usedPrefix}spotifysearch lathi\n│\n├───「 *SOUNDCLOUD* 」\n│ • {usedPrefix}soundcloud <url>\n│   *Contoh:* {usedPrefix}soundcloud https://soundcloud.com/xxx\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan benar!*\n🔰 *Contoh:* {usedPrefix}ytsearch hindia rumah ke rumah"
+  },
+  "menuSearch": {
+    "title": "🔍 MENU SEARCH",
+    "content": "╔══════════════════╗\n║      *🔍 MENU SEARCH*      ║\n╚══════════════════╝\n\n╭───「 *YOUTUBE* 」\n│ • {usedPrefix}ytsearch <query>\n│   *Contoh:* {usedPrefix}ytsearch lathi\n│\n├───「 *LIRIK* 」\n│ • {usedPrefix}lirik <judul lagu>\n│   *Contoh:* {usedPrefix}lirik lathi\n│\n├───「 *GOOGLE* 」\n│ • {usedPrefix}google <query>\n│   *Contoh:* {usedPrefix}google cara membuat bot wa\n│\n├───「 *IMAGE* 」\n│ • {usedPrefix}image <query>\n│   *Contoh:* {usedPrefix}image kucing lucu\n│\n├───「 *WIKIPEDIA* 」\n│ • {usedPrefix}wiki <query>\n│   *Contoh:* {usedPrefix}wiki soekarno\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan benar!*"
+  },
+  "menuGames": {
+    "title": "🎮 MENU GAMES",
+    "content": "╔══════════════════╗\n║      *🎮 MENU GAMES*      ║\n╚══════════════════╝\n\n╭───「 *TEBAK GAMBAR* 」\n│ • {usedPrefix}tebakgambar\n│   *Mulai game tebak gambar*\n│\n├───「 *TEBAK KATA* 」\n│ • {usedPrefix}tebakkata\n│   *Mulai game tebak kata*\n│\n├───「 *TEBAK LAGU* 」\n│ • {usedPrefix}tebaklagu\n│   *Mulai game tebak lagu*\n│\n├───「 *SUWIT* 」\n│ • {usedPrefix}suwit <batu/kertas/gunting>\n│   *Contoh:* {usedPrefix}suwit batu\n│\n├───「 *SAMBUNG KATA* 」\n│ • {usedPrefix}sambungkata\n│   *Mulai game sambung kata*\n│\n╰────────────────────\n\n📌 *Selamat bermain!*"
+  },
+  "menuLainnya": {
+    "title": "⚙️ MENU LAINNYA",
+    "content": "╔══════════════════╗\n║     *⚙️ MENU LAINNYA*     ║\n╚══════════════════╝\n\n╭───「 *INFORMASI* 」\n│ • {usedPrefix}infobot\n│   *Info tentang bot*\n│\n│ • {usedPrefix}owner\n│   *Kontak owner bot*\n│\n│ • {usedPrefix}rules\n│   *Peraturan bot*\n│\n├───「 *KONVERTER* 」\n│ • {usedPrefix}sticker\n│   *Buat sticker dari gambar*\n│\n│ • {usedPrefix}toimg\n│   *Ubah sticker ke gambar*\n│\n│ • {usedPrefix}tourl\n│   *Ubah media ke link*\n│\n├───「 *LAIN-LAIN* 」\n│ • {usedPrefix}ping\n│   *Cek kecepatan bot*\n│\n│ • {usedPrefix}runtime\n│   *Cek lama bot online*\n│\n╰────────────────────\n\n📌 *Gunakan perintah dengan bijak!*"
   }
 }
