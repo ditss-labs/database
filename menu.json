@@ -76,7 +76,7 @@
           "example": ".igstory username",
           "description": "Download Instagram story user",
           "aliases": [".story", ".igst"],
-          "maintenance": false
+          "maintenance": true
         },
         "facebook": {
           "command": ".fb",
@@ -90,7 +90,7 @@
           "example": ".twitter https://twitter.com/user/status/123456789",
           "description": "Download Twitter/X video & GIF",
           "aliases": [".tw", ".x", ".twdl"],
-          "maintenance": false
+          "maintenance": true 
         },
         "pinterest": {
           "command": ".pin",
@@ -104,21 +104,21 @@
           "example": ".snack https://sck.io/xyz123",
           "description": "Download Snack Video tanpa watermark",
           "aliases": [".snackvideo", ".sv"],
-          "maintenance": false
+          "maintenance": true
         },
         "likee": {
           "command": ".likee",
           "example": ".likee https://likee.com/v/xyz123",
           "description": "Download video Likee",
           "aliases": [".like"],
-          "maintenance": false
+          "maintenance": true 
         },
         "douyin": {
           "command": ".douyin",
           "example": ".douyin https://douyin.com/video/123456",
           "description": "Download video Douyin (versi China TikTok)",
           "aliases": [".dy"],
-          "maintenance": false
+          "maintenance": true 
         }
       }
     },
@@ -152,14 +152,14 @@
           "example": ".joox judul lagu",
           "description": "Download lagu dari Joox",
           "aliases": [".jx"],
-          "maintenance": false
+          "maintenance": true 
         },
         "kuwo": {
           "command": ".kuwo",
           "example": ".kuwo judul lagu",
           "description": "Download lagu dari KuWo Music",
           "aliases": [".kw"],
-          "maintenance": false
+          "maintenance": true 
         },
         "lagu": {
           "command": ".lagu",
@@ -193,21 +193,21 @@
           "example": ".zippy https://zippyshare.com/xyz123",
           "description": "Download file dari ZippyShare",
           "aliases": [".zs", ".zippyshare"],
-          "maintenance": false
+          "maintenance": true
         },
         "gdrive": {
           "command": ".gdrive",
           "example": ".gdrive https://drive.google.com/file/d/xyz123",
           "description": "Download file dari Google Drive",
           "aliases": [".gd", ".googledrive"],
-          "maintenance": false
+          "maintenance": true
         },
         "gdtot": {
           "command": ".gdtot",
           "example": ".gdtot https://gdtot.com/file/xyz123",
           "description": "Download file dari GDTot",
           "aliases": [".gdt"],
-          "maintenance": false
+          "maintenance": true
         }
       }
     },
@@ -220,14 +220,14 @@
           "example": ".capcut https://capcut.com/template/xyz123",
           "description": "Download template CapCut",
           "aliases": [".cc", ".cap"],
-          "maintenance": false
+          "maintenance": true 
         },
         "pixiv": {
           "command": ".pixiv",
           "example": ".pixiv https://pixiv.net/artworks/123456",
           "description": "Download ilustrasi dari Pixiv",
           "aliases": [".px"],
-          "maintenance": false
+          "maintenance": true 
         },
         "app": {
           "command": ".app",
