@@ -794,23 +794,354 @@
             "description": "Tag semua anggota group",
             "aliases": [".ht", ".tagall"],
             "maintenance": false
+          },
+          "kick": {
+            "command": ".kick",
+            "example": ".kick @user",
+            "description": "Kick anggota dari group",
+            "aliases": [".remove"],
+            "maintenance": false
+          },
+          "add": {
+            "command": ".add",
+            "example": ".add 628xxxxxx",
+            "description": "Tambah anggota ke group",
+            "aliases": [".tambah"],
+            "maintenance": false
+          },
+          "promote": {
+            "command": ".promote",
+            "example": ".promote @user",
+            "description": "Jadikan admin group",
+            "aliases": [".angkat"],
+            "maintenance": false
+          },
+          "demote": {
+            "command": ".demote",
+            "example": ".demote @user",
+            "description": "Turunkan admin group",
+            "aliases": [".turunkan"],
+            "maintenance": false
+          },
+          "setppgc": {
+            "command": ".setppgc",
+            "example": ".setppgc (kirim gambar)",
+            "description": "Ubah foto profil group",
+            "aliases": [".setpp", ".setfotogc"],
+            "maintenance": false
+          },
+          "getppgc": {
+            "command": ".getppgc",
+            "example": ".getppgc",
+            "description": "Ambil foto profil group",
+            "aliases": [".fotogc"],
+            "maintenance": false
+          },
+          "getpp": {
+            "command": ".getpp",
+            "example": ".getpp @user",
+            "description": "Ambil foto profil user",
+            "aliases": [".foto", ".avatar"],
+            "maintenance": false
+          },
+          "setdesc": {
+            "command": ".setdesc",
+            "example": ".setdesc deskripsi baru",
+            "description": "Ubah deskripsi group",
+            "aliases": [".setdesk"],
+            "maintenance": false
+          },
+          "setname": {
+            "command": ".setname",
+            "example": ".setname Nama Group Baru",
+            "description": "Ubah nama group",
+            "aliases": [".setnama"],
+            "maintenance": false
+          },
+          "group": {
+            "command": ".group",
+            "example": ".group close / open",
+            "description": "Buka/tutup group",
+            "aliases": [".grup"],
+            "maintenance": false
+          },
+          "linkgc": {
+            "command": ".linkgc",
+            "example": ".linkgc",
+            "description": "Ambil link invite group",
+            "aliases": [".link", ".getlink"],
+            "maintenance": false
+          },
+          "revoke": {
+            "command": ".revoke",
+            "example": ".revoke",
+            "description": "Reset link invite group",
+            "aliases": [".resetlink"],
+            "maintenance": false
+          },
+          "delete": {
+            "command": ".delete",
+            "example": ".delete (reply pesan bot)",
+            "description": "Hapus pesan bot",
+            "aliases": [".del", ".hapus"],
+            "maintenance": false
+          },
+          "pin": {
+            "command": ".pin",
+            "example": ".pin (reply pesan)",
+            "description": "Pin pesan di group",
+            "aliases": [".pinned"],
+            "maintenance": false
+          },
+          "unpin": {
+            "command": ".unpin",
+            "example": ".unpin",
+            "description": "Hapus pin pesan",
+            "aliases": [".unpinned"],
+            "maintenance": false
+          },
+          "warn": {
+            "command": ".warn",
+            "example": ".warn @user [alasan]",
+            "description": "Beri peringatan ke member",
+            "aliases": [".peringatan"],
+            "maintenance": false
+          },
+          "unwarn": {
+            "command": ".unwarn",
+            "example": ".unwarn @user",
+            "description": "Hapus peringatan member",
+            "aliases": [".hapuswarn"],
+            "maintenance": false
+          },
+          "resetwarn": {
+            "command": ".resetwarn",
+            "example": ".resetwarn @user",
+            "description": "Reset semua warn member",
+            "aliases": [".delwarn"],
+            "maintenance": false
+          },
+          "mute": {
+            "command": ".mute",
+            "example": ".mute @user / .mute 10m",
+            "description": "Mute anggota (admin only)",
+            "aliases": [".bisukan"],
+            "maintenance": false
+          },
+          "unmute": {
+            "command": ".unmute",
+            "example": ".unmute @user",
+            "description": "Unmute anggota",
+            "aliases": [".nyalakan"],
+            "maintenance": false
+          },
+          "mutebot": {
+            "command": ".mutebot",
+            "example": ".mutebot on/off",
+            "description": "Mute bot dari member (admin only)",
+            "aliases": [".botmute"],
+            "maintenance": false
+          },
+          "resetabsen": {
+            "command": ".resetabsen",
+            "example": ".resetabsen",
+            "description": "Reset daftar absen group",
+            "aliases": [".hapusabsen"],
+            "maintenance": false
           }
         }
       },
       "group_setting": {
         "title": "⚙️ GROUP SETTING",
-        "commands": {}
+        "commands": {
+          "antilink": {
+            "command": ".antilink",
+            "example": ".antilink fb on\n.antilink kick off\n.antilink all off",
+            "description": "Cegah link tertentu\nPlatform: wa, fb, ig, tt, tg, yt, twitter, dc, saluran, all\nMode: kick on/off",
+            "aliases": [".link"],
+            "maintenance": false
+          },
+          "antiviewonce": {
+            "command": ".antiviewonce",
+            "example": ".antiviewonce on/off",
+            "description": "Cegah pesan view once",
+            "aliases": [".avo"],
+            "maintenance": false
+          },
+          "rvo": {
+            "command": ".rvo",
+            "example": ".rvo (reply pesan view once)",
+            "description": "Ambil foto/video view once",
+            "aliases": [".getvo"],
+            "maintenance": false
+          },
+          "welcome": {
+            "command": ".welcome",
+            "example": ".welcome on/off",
+            "description": "Fitur salam welcome/kick",
+            "aliases": [".salam"],
+            "maintenance": false
+          },
+          "setwelcome": {
+            "command": ".setwelcome",
+            "example": ".setwelcome text welcome",
+            "description": "Ubah pesan welcome custom",
+            "aliases": [".setwlc"],
+            "maintenance": false
+          },
+          "setgoodbye": {
+            "command": ".setgoodbye",
+            "example": ".setgoodbye text goodbye",
+            "description": "Ubah pesan goodbye custom",
+            "aliases": [".setgb"],
+            "maintenance": false
+          },
+          "maxwarn": {
+            "command": ".maxwarn",
+            "example": ".maxwarn 5",
+            "description": "Atur batas maksimal warn",
+            "aliases": [".setmaxwarn"],
+            "maintenance": false
+          },
+          "nsfw": {
+            "command": ".nsfw",
+            "example": ".nsfw on/off",
+            "description": "Mode konten dewasa",
+            "aliases": [".dewasa"],
+            "maintenance": false
+          },
+          "antibot": {
+            "command": ".antibot",
+            "example": ".antibot on/off",
+            "description": "Cegah bot lain masuk group",
+            "aliases": [".nobot"],
+            "maintenance": false
+          },
+          "antispam": {
+            "command": ".antispam",
+            "example": ".antispam on/off",
+            "description": "Cegah spam di group",
+            "aliases": [".nospam"],
+            "maintenance": false
+          }
+        }
       },
       "member": {
-        "title": "👥 MEMBER",
-        "commands": {}
+        "title": "👥 MENU MEMBER",
+        "commands": {
+          "profile": {
+            "command": ".profile",
+            "example": ".profile @user",
+            "description": "Lihat profil member (level, exp, warn)",
+            "aliases": [".profil"],
+            "maintenance": false
+          },
+          "absen": {
+            "command": ".absen",
+            "example": ".absen",
+            "description": "Absen/melakukan presensi di group",
+            "aliases": [".hadir", ".presensi"],
+            "maintenance": false
+          },
+          "cekabsen": {
+            "command": ".cekabsen",
+            "example": ".cekabsen",
+            "description": "Lihat daftar yang sudah absen",
+            "aliases": [".listabsen"],
+            "maintenance": false
+          },
+          "listonline": {
+            "command": ".listonline",
+            "example": ".listonline",
+            "description": "Lihat member yang sedang online",
+            "aliases": [".online"],
+            "maintenance": false
+          },
+          "totag": {
+            "command": ".totag",
+            "example": ".totag pesan",
+            "description": "Tag semua member (tanpa admin)",
+            "aliases": [".tag"],
+            "maintenance": false
+          },
+          "report": {
+            "command": ".report",
+            "example": ".report alasan",
+            "description": "Lapor ke admin group",
+            "aliases": [".lapor"],
+            "maintenance": false
+          },
+          "warns": {
+            "command": ".warns",
+            "example": ".warns @user",
+            "description": "Cek jumlah peringatan member",
+            "aliases": [".cekwarn"],
+            "maintenance": false
+          },
+          "ping": {
+            "command": ".ping",
+            "example": ".ping",
+            "description": "Cek kecepatan respon bot",
+            "aliases": [".speed"],
+            "maintenance": false
+          },
+          "rules": {
+            "command": ".rules",
+            "example": ".rules",
+            "description": "Lihat peraturan group",
+            "aliases": [".peraturan"],
+            "maintenance": false
+          },
+          "info": {
+            "command": ".info",
+            "example": ".info",
+            "description": "Lihat info group (jumlah member, admin, dll)",
+            "aliases": [".infogc"],
+            "maintenance": false
+          },
+          "sosmed": {
+            "command": ".sosmed",
+            "example": ".sosmed",
+            "description": "Lihat sosial media owner/bot",
+            "aliases": [".social"],
+            "maintenance": false
+          },
+          "donasi": {
+            "command": ".donasi",
+            "example": ".donasi",
+            "description": "Info donasi/support bot",
+            "aliases": [".donate"],
+            "maintenance": false
+          },
+          "owner": {
+            "command": ".owner",
+            "example": ".owner",
+            "description": "Kontak owner bot",
+            "aliases": [".creator"],
+            "maintenance": false
+          },
+          "level": {
+            "command": ".level",
+            "example": ".level",
+            "description": "Cek level dan exp kamu di group",
+            "aliases": [".exp"],
+            "maintenance": false
+          },
+          "top": {
+            "command": ".top",
+            "example": ".top",
+            "description": "Top member berdasarkan level/exp",
+            "aliases": [".leaderboard", ".ranking"],
+            "maintenance": false
+          }
+        }
       }
     },
     "total_commands": {
-      "admin": 1,
-      "group_setting": 0,
-      "member": 0,
-      "all": 1
+      "admin": 23,
+      "group_setting": 10,
+      "member": 15,
+      "all": 48
     }
   },
   "menuJadibot": {
