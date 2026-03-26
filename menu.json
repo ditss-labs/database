@@ -255,7 +255,7 @@
     "all": 24
   }
 },
-    "menuSearch": {
+  "menuSearch": {
     "title": "🔍 MENU SEARCH",
     "maintenance": false,
     "sections": {
@@ -268,23 +268,137 @@
             "description": "Cari informasi di Google",
             "aliases": [".g", ".goog"],
             "maintenance": false
+          },
+          "image": {
+            "command": ".image",
+            "example": ".image kucing lucu",
+            "description": "Cari gambar di Google",
+            "aliases": [".img", ".gambar", ".photo"],
+            "maintenance": false
+          },
+          "yts": {
+            "command": ".yts",
+            "example": ".yts tutorial bot wa",
+            "description": "Cari video di YouTube (search)",
+            "aliases": [".ytsearch", ".youtube"],
+            "maintenance": false
+          },
+          "tts": {
+            "command": ".tts",
+            "example": ".tts viral fyp",
+            "description": "Cari video di TikTok (search)",
+            "aliases": [".tiktoksearch", ".ttsearch"],
+            "maintenance": false
+          },
+          "pinterest": {
+            "command": ".pinterest",
+            "example": ".pinterest aesthetic",
+            "description": "Cari gambar di Pinterest",
+            "aliases": [".pin"],
+            "maintenance": false
+          },
+          "bing": {
+            "command": ".bing",
+            "example": ".bing resep masakan",
+            "description": "Cari informasi di Bing",
+            "aliases": [],
+            "maintenance": false
           }
         }
       },
       "media_search": {
         "title": "🎬 MEDIA SEARCH",
-        "commands": {}
+        "commands": {
+          "igsearch": {
+            "command": ".igsearch",
+            "example": ".igsearch kucing",
+            "description": "Cari postingan di Instagram (search)",
+            "aliases": [".igcari", ".instasearch"],
+            "maintenance": false
+          },
+          "fbs": {
+            "command": ".fbs",
+            "example": ".fbs viral",
+            "description": "Cari video di Facebook (search)",
+            "aliases": [".fbsearch", ".facebooksearch"],
+            "maintenance": false
+          },
+          "twitters": {
+            "command": ".twitters",
+            "example": ".twitters trending",
+            "description": "Cari tweet di Twitter/X (search)",
+            "aliases": [".xsearch", ".twtsearch"],
+            "maintenance": false
+          }
+        }
       },
       "knowledge": {
         "title": "📚 KNOWLEDGE",
-        "commands": {}
+        "commands": {
+          "brainly": {
+            "command": ".brainly",
+            "example": ".brainly apa itu artificial intelligence",
+            "description": "Cari jawaban di Brainly",
+            "aliases": [".br", ".brain"],
+            "maintenance": false
+          },
+          "wiki": {
+            "command": ".wiki",
+            "example": ".wiki indonesia",
+            "description": "Cari informasi di Wikipedia",
+            "aliases": [".wikipedia", ".idwiki"],
+            "maintenance": false
+          },
+          "cuaca": {
+            "command": ".cuaca",
+            "example": ".cuaca Jakarta",
+            "description": "Cek cuaca kota",
+            "aliases": [".weather", ".caca"],
+            "maintenance": false
+          },
+          "quran": {
+            "command": ".quran",
+            "example": ".quran 1:1",
+            "description": "Cari ayat Al-Quran",
+            "aliases": [".alquran", ".ayat"],
+            "maintenance": false
+          },
+          "jadwalsholat": {
+            "command": ".jadwalsholat",
+            "example": ".jadwalsholat Jakarta",
+            "description": "Cek jadwal sholat kota",
+            "aliases": [".sholat", ".jadwalsolat"],
+            "maintenance": false
+          },
+          "resep": {
+            "command": ".resep",
+            "example": ".resep nasi goreng",
+            "description": "Cari resep masakan",
+            "aliases": [".recipe", ".masakan"],
+            "maintenance": false
+          },
+          "kbbi": {
+            "command": ".kbbi",
+            "example": ".kbbi robot",
+            "description": "Cari arti kata di KBBI",
+            "aliases": [".kamus", ".arti"],
+            "maintenance": false
+          },
+          "lirik": {
+            "command": ".lirik",
+            "example": ".lirik halo",
+            "description": "Cari lirik lagu",
+            "aliases": [".lyrics", ".liriklagu"],
+            "maintenance": false
+          }
+        }
       }
     },
     "total_commands": {
-      "search_engines": 1,
-      "media_search": 0,
-      "knowledge": 0,
-      "all": 1
+      "search_engines": 6,
+      "media_search": 3,
+      "knowledge": 8,
+      "all": 17
     }
   },
   "menuStalking": {
