@@ -79,7 +79,7 @@
           "maintenance": true
         },
         "facebook": {
-          "command": ".fb",
+          "command": ".facebook",
           "example": ".fb https://fb.watch/xyz123/",
           "description": "Download Facebook video",
           "aliases": [".facebook", ".fbdl", ".fvideo"],
@@ -127,7 +127,7 @@
       "title": "🎵 MUSIC & AUDIO",
       "commands": {
         "youtube": {
-          "command": ".yt",
+          "command": ".YouTube",
           "example": ".yt https://youtu.be/dQw4w9WgXcQ",
           "description": "Download YouTube video (MP4/MP3)",
           "aliases": [".youtube", ".ytdl", ".ytmp4", ".ytmp3"],
@@ -141,7 +141,7 @@
           "maintenance": false
         },
         "soundcloud": {
-          "command": ".sc",
+          "command": ".SoundCloud",
           "example": ".sc https://soundcloud.com/user/track",
           "description": "Download lagu dari SoundCloud (MP3)",
           "aliases": [".soundcloud", ".scdl"],
@@ -182,7 +182,7 @@
           "maintenance": false
         },
         "mediafire": {
-          "command": ".mf",
+          "command": ".mediafire",
           "example": ".mf https://www.mediafire.com/file/xyz123",
           "description": "Download file dari MediaFire",
           "aliases": [".mediafire", ".mfire"],
