@@ -254,5 +254,1200 @@
     "other": 4,
     "all": 24
   }
-}
+},
+    "menuSearch": {
+    "title": "🔍 MENU SEARCH",
+    "maintenance": false,
+    "sections": {
+      "search_engines": {
+        "title": "🔎 SEARCH ENGINES",
+        "commands": {
+          "google": {
+            "command": ".google",
+            "example": ".google cara membuat bot wa",
+            "description": "Cari informasi di Google",
+            "aliases": [".g", ".goog"],
+            "maintenance": false
+          }
+        }
+      },
+      "media_search": {
+        "title": "🎬 MEDIA SEARCH",
+        "commands": {}
+      },
+      "knowledge": {
+        "title": "📚 KNOWLEDGE",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "search_engines": 1,
+      "media_search": 0,
+      "knowledge": 0,
+      "all": 1
+    }
+  },
+  "menuStalking": {
+    "title": "🕵️ MENU STALKING",
+    "maintenance": false,
+    "sections": {
+      "instagram": {
+        "title": "📷 INSTAGRAM",
+        "commands": {
+          "stalkig": {
+            "command": ".stalkig",
+            "example": ".stalkig jokowi",
+            "description": "Lihat profil Instagram user",
+            "aliases": [".igstalk", ".instastalk"],
+            "maintenance": false
+          }
+        }
+      },
+      "tiktok": {
+        "title": "🎵 TIKTOK",
+        "commands": {}
+      },
+      "github": {
+        "title": "💻 GITHUB",
+        "commands": {}
+      },
+      "youtube": {
+        "title": "🎬 YOUTUBE",
+        "commands": {}
+      },
+      "twitter": {
+        "title": "🐦 TWITTER",
+        "commands": {}
+      },
+      "facebook": {
+        "title": "📘 FACEBOOK",
+        "commands": {}
+      },
+      "other": {
+        "title": "🔧 OTHER",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "instagram": 1,
+      "tiktok": 0,
+      "github": 0,
+      "youtube": 0,
+      "twitter": 0,
+      "facebook": 0,
+      "other": 0,
+      "all": 1
+    }
+  },
+  "menuSosmed": {
+    "title": "📱 MENU SOSMED",
+    "maintenance": false,
+    "sections": {
+      "instagram_stats": {
+        "title": "📷 INSTAGRAM STATS",
+        "commands": {
+          "igstats": {
+            "command": ".igstats",
+            "example": ".igstats jokowi",
+            "description": "Cek statistik akun Instagram",
+            "aliases": [".igstat", ".instastats"],
+            "maintenance": false
+          }
+        }
+      },
+      "tiktok_stats": {
+        "title": "🎵 TIKTOK STATS",
+        "commands": {}
+      },
+      "youtube_stats": {
+        "title": "🎬 YOUTUBE STATS",
+        "commands": {}
+      },
+      "twitter_stats": {
+        "title": "🐦 TWITTER STATS",
+        "commands": {}
+      },
+      "facebook_stats": {
+        "title": "📘 FACEBOOK STATS",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "instagram_stats": 1,
+      "tiktok_stats": 0,
+      "youtube_stats": 0,
+      "twitter_stats": 0,
+      "facebook_stats": 0,
+      "all": 1
+    }
+  },
+  "menuGames": {
+    "title": "🎮 MENU GAMES",
+    "maintenance": false,
+    "sections": {
+      "tebak_gambar": {
+        "title": "🖼️ TEBAK GAMBAR",
+        "commands": {
+          "tebakgambar": {
+            "command": ".tebakgambar",
+            "example": ".tebakgambar",
+            "description": "Main game tebak gambar",
+            "aliases": [".tg"],
+            "maintenance": false
+          }
+        }
+      },
+      "tebak_kata": {
+        "title": "📝 TEBAK KATA",
+        "commands": {}
+      },
+      "tebak_angka": {
+        "title": "🔢 TEBAK ANGKA",
+        "commands": {}
+      },
+      "tebak_lagu": {
+        "title": "🎵 TEBAK LAGU",
+        "commands": {}
+      },
+      "family100": {
+        "title": "👨‍👩‍👧‍👦 FAMILY 100",
+        "commands": {}
+      },
+      "susun_kata": {
+        "title": "📖 SUSUN KATA",
+        "commands": {}
+      },
+      "suit": {
+        "title": "✊ SUWIT",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "tebak_gambar": 1,
+      "tebak_kata": 0,
+      "tebak_angka": 0,
+      "tebak_lagu": 0,
+      "family100": 0,
+      "susun_kata": 0,
+      "suit": 0,
+      "all": 1
+    }
+  },
+  "menuStiker": {
+    "title": "🎨 MENU STIKER",
+    "maintenance": false,
+    "sections": {
+      "sticker": {
+        "title": "🎨 BUAT STIKER",
+        "commands": {
+          "sticker": {
+            "command": ".sticker",
+            "example": ".sticker [reply gambar]",
+            "description": "Buat stiker dari gambar",
+            "aliases": [".s", ".stiker"],
+            "maintenance": false
+          }
+        }
+      },
+      "sticker_gif": {
+        "title": "🎭 STIKER GIF",
+        "commands": {}
+      },
+      "sticker_wajah": {
+        "title": "😊 STIKER WAJAH",
+        "commands": {}
+      },
+      "sticker_circle": {
+        "title": "⚪ STIKER CIRCLE",
+        "commands": {}
+      },
+      "sticker_kertas": {
+        "title": "📄 STIKER KERTAS",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "sticker": 1,
+      "sticker_gif": 0,
+      "sticker_wajah": 0,
+      "sticker_circle": 0,
+      "sticker_kertas": 0,
+      "all": 1
+    }
+  },
+  "menuEditor": {
+    "title": "✂️ MENU EDITOR",
+    "maintenance": false,
+    "sections": {
+      "edit_foto": {
+        "title": "🖼️ EDIT FOTO",
+        "commands": {
+          "blur": {
+            "command": ".blur",
+            "example": ".blur [reply gambar]",
+            "description": "Blur foto",
+            "aliases": [".buram"],
+            "maintenance": false
+          }
+        }
+      },
+      "filter": {
+        "title": "🎨 FILTER",
+        "commands": {}
+      },
+      "effect": {
+        "title": "✨ EFFECT",
+        "commands": {}
+      },
+      "circle": {
+        "title": "⚪ CIRCLE",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "edit_foto": 1,
+      "filter": 0,
+      "effect": 0,
+      "circle": 0,
+      "all": 1
+    }
+  },
+  "menuTools": {
+    "title": "🔧 MENU TOOLS",
+    "maintenance": false,
+    "sections": {
+      "utility": {
+        "title": "🔧 UTILITY",
+        "commands": {
+          "cuaca": {
+            "command": ".cuaca",
+            "example": ".cuaca jakarta",
+            "description": "Cek cuaca daerah",
+            "aliases": [".weather"],
+            "maintenance": false
+          }
+        }
+      },
+      "converter": {
+        "title": "🔄 CONVERTER",
+        "commands": {}
+      },
+      "qr": {
+        "title": "📇 QR CODE",
+        "commands": {}
+      },
+      "shortlink": {
+        "title": "🔗 SHORTLINK",
+        "commands": {}
+      },
+      "translate": {
+        "title": "🌍 TRANSLATE",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "utility": 1,
+      "converter": 0,
+      "qr": 0,
+      "shortlink": 0,
+      "translate": 0,
+      "all": 1
+    }
+  },
+  "menuConverter": {
+    "title": "🔄 MENU CONVERTER",
+    "maintenance": false,
+    "sections": {
+      "image": {
+        "title": "🖼️ IMAGE CONVERTER",
+        "commands": {
+          "toimg": {
+            "command": ".toimg",
+            "example": ".toimg [reply stiker]",
+            "description": "Ubah stiker ke gambar",
+            "aliases": [".jpg"],
+            "maintenance": false
+          }
+        }
+      },
+      "video": {
+        "title": "🎬 VIDEO CONVERTER",
+        "commands": {}
+      },
+      "audio": {
+        "title": "🎵 AUDIO CONVERTER",
+        "commands": {}
+      },
+      "document": {
+        "title": "📄 DOCUMENT CONVERTER",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "image": 1,
+      "video": 0,
+      "audio": 0,
+      "document": 0,
+      "all": 1
+    }
+  },
+  "menuIslami": {
+    "title": "🕌 MENU ISLAMI",
+    "maintenance": false,
+    "sections": {
+      "quran": {
+        "title": "📖 AL-QURAN",
+        "commands": {
+          "quran": {
+            "command": ".quran",
+            "example": ".quran 1:1",
+            "description": "Baca ayat Al-Quran",
+            "aliases": [".alquran"],
+            "maintenance": false
+          }
+        }
+      },
+      "jadwal_sholat": {
+        "title": "🕰️ JADWAL SHOLAT",
+        "commands": {}
+      },
+      "doa": {
+        "title": "🤲 DOA",
+        "commands": {}
+      },
+      "asmaul_husna": {
+        "title": "📿 ASMAUL HUSNA",
+        "commands": {}
+      },
+      "kisah_nabi": {
+        "title": "📜 KISAH NABI",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "quran": 1,
+      "jadwal_sholat": 0,
+      "doa": 0,
+      "asmaul_husna": 0,
+      "kisah_nabi": 0,
+      "all": 1
+    }
+  },
+  "menuEdukasi": {
+    "title": "📚 MENU EDUKASI",
+    "maintenance": false,
+    "sections": {
+      "wikipedia": {
+        "title": "📖 WIKIPEDIA",
+        "commands": {
+          "wiki": {
+            "command": ".wiki",
+            "example": ".wiki soekarno",
+            "description": "Cari di Wikipedia",
+            "aliases": [".wikipedia"],
+            "maintenance": false
+          }
+        }
+      },
+      "kbbi": {
+        "title": "📘 KBBI",
+        "commands": {}
+      },
+      "brainly": {
+        "title": "🧠 BRAINLY",
+        "commands": {}
+      },
+      "rumus": {
+        "title": "📐 RUMUS",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "wikipedia": 1,
+      "kbbi": 0,
+      "brainly": 0,
+      "rumus": 0,
+      "all": 1
+    }
+  },
+  "menuMusik": {
+    "title": "🎵 MENU MUSIK",
+    "maintenance": false,
+    "sections": {
+      "play": {
+        "title": "🎧 PUTAR LAGU",
+        "commands": {
+          "play": {
+            "command": ".play",
+            "example": ".play tak ingin usai",
+            "description": "Putar lagu dari YouTube",
+            "aliases": [".p", ".musik"],
+            "maintenance": false
+          }
+        }
+      },
+      "lirik": {
+        "title": "📝 LIRIK",
+        "commands": {}
+      },
+      "chord": {
+        "title": "🎸 CHORD",
+        "commands": {}
+      },
+      "radio": {
+        "title": "📻 RADIO",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "play": 1,
+      "lirik": 0,
+      "chord": 0,
+      "radio": 0,
+      "all": 1
+    }
+  },
+  "menuTrending": {
+    "title": "📈 MENU TRENDING",
+    "maintenance": false,
+    "sections": {
+      "youtube": {
+        "title": "🎬 YOUTUBE TRENDING",
+        "commands": {
+          "trendingyt": {
+            "command": ".trendingyt",
+            "example": ".trendingyt",
+            "description": "Lihat trending YouTube",
+            "aliases": [".ytrending", ".trending"],
+            "maintenance": false
+          }
+        }
+      },
+      "tiktok": {
+        "title": "🎵 TIKTOK TRENDING",
+        "commands": {}
+      },
+      "twitter": {
+        "title": "🐦 TWITTER TRENDING",
+        "commands": {}
+      },
+      "google": {
+        "title": "🔎 GOOGLE TRENDING",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "youtube": 1,
+      "tiktok": 0,
+      "twitter": 0,
+      "google": 0,
+      "all": 1
+    }
+  },
+  "menuRandom": {
+    "title": "🎲 MENU RANDOM",
+    "maintenance": false,
+    "sections": {
+      "quotes": {
+        "title": "💬 QUOTES",
+        "commands": {
+          "quotes": {
+            "command": ".quotes",
+            "example": ".quotes",
+            "description": "Dapatkan quotes random",
+            "aliases": [".kata", ".motivasi"],
+            "maintenance": false
+          }
+        }
+      },
+      "pantun": {
+        "title": "🎭 PANTUN",
+        "commands": {}
+      },
+      "fakta": {
+        "title": "🧠 FAKTA UNIK",
+        "commands": {}
+      },
+      "joke": {
+        "title": "😂 JOKE",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "quotes": 1,
+      "pantun": 0,
+      "fakta": 0,
+      "joke": 0,
+      "all": 1
+    }
+  },
+  "menuGroup": {
+    "title": "👥 MENU GROUP",
+    "maintenance": false,
+    "sections": {
+      "admin": {
+        "title": "👑 ADMIN TOOLS",
+        "commands": {
+          "hidetag": {
+            "command": ".hidetag",
+            "example": ".hidetag pesan",
+            "description": "Tag semua anggota group",
+            "aliases": [".ht", ".tagall"],
+            "maintenance": false
+          }
+        }
+      },
+      "group_setting": {
+        "title": "⚙️ GROUP SETTING",
+        "commands": {}
+      },
+      "member": {
+        "title": "👥 MEMBER",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "admin": 1,
+      "group_setting": 0,
+      "member": 0,
+      "all": 1
+    }
+  },
+  "menuJadibot": {
+    "title": "🤖 MENU JADIBOT",
+    "maintenance": false,
+    "sections": {
+      "jadibot": {
+        "title": "🤖 CLONE BOT",
+        "commands": {
+          "jadibot": {
+            "command": ".jadibot",
+            "example": ".jadibot",
+            "description": "Jadi bot sementara",
+            "aliases": [".clone", ".bot"],
+            "maintenance": false
+          }
+        }
+      },
+      "stopbot": {
+        "title": "🛑 STOP BOT",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "jadibot": 1,
+      "stopbot": 0,
+      "all": 1
+    }
+  },
+  "menuReward": {
+    "title": "🎁 MENU REWARD",
+    "maintenance": false,
+    "sections": {
+      "daily": {
+        "title": "📅 DAILY",
+        "commands": {
+          "daily": {
+            "command": ".daily",
+            "example": ".daily",
+            "description": "Klaim reward harian",
+            "aliases": [".claim", ".hadiah"],
+            "maintenance": false
+          }
+        }
+      },
+      "limit": {
+        "title": "📊 LIMIT",
+        "commands": {}
+      },
+      "level": {
+        "title": "🏆 LEVEL",
+        "commands": {}
+      },
+      "profil": {
+        "title": "👤 PROFIL",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "daily": 1,
+      "limit": 0,
+      "level": 0,
+      "profil": 0,
+      "all": 1
+    }
+  },
+  "menuAi": {
+    "title": "🤖 MENU AI",
+    "maintenance": false,
+    "sections": {
+      "chatgpt": {
+        "title": "💬 CHATGPT",
+        "commands": {
+          "ai": {
+            "command": ".ai",
+            "example": ".ai apa kabar",
+            "description": "Chat dengan AI",
+            "aliases": [".chatgpt", ".gpt"],
+            "maintenance": false
+          }
+        }
+      },
+      "image_generator": {
+        "title": "🎨 IMAGE GENERATOR",
+        "commands": {}
+      },
+      "bard": {
+        "title": "📝 BARD AI",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "chatgpt": 1,
+      "image_generator": 0,
+      "bard": 0,
+      "all": 1
+    }
+  },
+  "menuAnime": {
+    "title": "🌸 MENU ANIME",
+    "maintenance": false,
+    "sections": {
+      "info": {
+        "title": "📺 INFO ANIME",
+        "commands": {
+          "anime": {
+            "command": ".anime",
+            "example": ".anime naruto",
+            "description": "Cari info anime",
+            "aliases": [".anim", ".animeinfo"],
+            "maintenance": false
+          }
+        }
+      },
+      "character": {
+        "title": "👤 KARAKTER",
+        "commands": {}
+      },
+      "wallpaper": {
+        "title": "🖼️ WALLPAPER",
+        "commands": {}
+      },
+      "quotes": {
+        "title": "💬 QUOTES ANIME",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "info": 1,
+      "character": 0,
+      "wallpaper": 0,
+      "quotes": 0,
+      "all": 1
+    }
+  },
+  "menuPremium": {
+    "title": "💰 MENU PREMIUM",
+    "maintenance": false,
+    "sections": {
+      "premium": {
+        "title": "⭐ FITUR PREMIUM",
+        "commands": {
+          "premium": {
+            "command": ".premium",
+            "example": ".premium",
+            "description": "Info fitur premium",
+            "aliases": [".vip", ".member"],
+            "maintenance": false
+          }
+        }
+      },
+      "buypremium": {
+        "title": "💳 BELI PREMIUM",
+        "commands": {}
+      },
+      "checkpremium": {
+        "title": "🔍 CEK PREMIUM",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "premium": 1,
+      "buypremium": 0,
+      "checkpremium": 0,
+      "all": 1
+    }
+  },
+  "menuStreaming": {
+    "title": "📺 MENU STREAMING",
+    "maintenance": false,
+    "sections": {
+      "film": {
+        "title": "🎬 FILM",
+        "commands": {
+          "film": {
+            "command": ".film",
+            "example": ".film avatar",
+            "description": "Cari link streaming film",
+            "aliases": [".movie", ".nonton"],
+            "maintenance": false
+          }
+        }
+      },
+      "series": {
+        "title": "📺 SERIES",
+        "commands": {}
+      },
+      "anime": {
+        "title": "🌸 ANIME STREAM",
+        "commands": {}
+      },
+      "tv": {
+        "title": "📡 LIVE TV",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "film": 1,
+      "series": 0,
+      "anime": 0,
+      "tv": 0,
+      "all": 1
+    }
+  },
+  "menuBerita": {
+    "title": "📰 MENU BERITA",
+    "maintenance": false,
+    "sections": {
+      "berita": {
+        "title": "📰 BERITA TERKINI",
+        "commands": {
+          "berita": {
+            "command": ".berita",
+            "example": ".berita",
+            "description": "Lihat berita terkini",
+            "aliases": [".news", ".info"],
+            "maintenance": false
+          }
+        }
+      },
+      "bola": {
+        "title": "⚽ BOLA",
+        "commands": {}
+      },
+      "teknologi": {
+        "title": "💻 TEKNOLOGI",
+        "commands": {}
+      },
+      "ekonomi": {
+        "title": "📈 EKONOMI",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "berita": 1,
+      "bola": 0,
+      "teknologi": 0,
+      "ekonomi": 0,
+      "all": 1
+    }
+  },
+  "menuResep": {
+    "title": "🍳 MENU RESEP",
+    "maintenance": false,
+    "sections": {
+      "resep": {
+        "title": "🍳 RESEP MASAKAN",
+        "commands": {
+          "resep": {
+            "command": ".resep",
+            "example": ".resep rendang",
+            "description": "Cari resep masakan",
+            "aliases": [".masak", ".cooking"],
+            "maintenance": false
+          }
+        }
+      },
+      "kue": {
+        "title": "🍰 KUE",
+        "commands": {}
+      },
+      "minuman": {
+        "title": "🥤 MINUMAN",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "resep": 1,
+      "kue": 0,
+      "minuman": 0,
+      "all": 1
+    }
+  },
+  "menuFinance": {
+    "title": "💼 MENU FINANCE",
+    "maintenance": false,
+    "sections": {
+      "crypto": {
+        "title": "🪙 CRYPTO",
+        "commands": {
+          "crypto": {
+            "command": ".crypto",
+            "example": ".crypto bitcoin",
+            "description": "Cek harga crypto",
+            "aliases": [".btc", ".eth"],
+            "maintenance": false
+          }
+        }
+      },
+      "saham": {
+        "title": "📊 SAHAM",
+        "commands": {}
+      },
+      "kurs": {
+        "title": "💵 KURS",
+        "commands": {}
+      },
+      "emas": {
+        "title": "🏆 EMAS",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "crypto": 1,
+      "saham": 0,
+      "kurs": 0,
+      "emas": 0,
+      "all": 1
+    }
+  },
+  "menuKesehatan": {
+    "title": "🏥 MENU KESEHATAN",
+    "maintenance": false,
+    "sections": {
+      "info": {
+        "title": "📋 INFO KESEHATAN",
+        "commands": {
+          "kesehatan": {
+            "command": ".kesehatan",
+            "example": ".kesehatan diabetes",
+            "description": "Info tentang kesehatan",
+            "aliases": [".health", ".medis"],
+            "maintenance": false
+          }
+        }
+      },
+      "kalori": {
+        "title": "🍎 KALORI",
+        "commands": {}
+      },
+      "obat": {
+        "title": "💊 OBAT",
+        "commands": {}
+      },
+      "bmi": {
+        "title": "⚖️ BMI",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "info": 1,
+      "kalori": 0,
+      "obat": 0,
+      "bmi": 0,
+      "all": 1
+    }
+  },
+  "menuOlahraga": {
+    "title": "⚽ MENU OLAHRAGA",
+    "maintenance": false,
+    "sections": {
+      "bola": {
+        "title": "⚽ SEPAK BOLA",
+        "commands": {
+          "skor": {
+            "command": ".skor",
+            "example": ".skor",
+            "description": "Cek skor pertandingan",
+            "aliases": [".score", ".bola"],
+            "maintenance": false
+          }
+        }
+      },
+      "klasemen": {
+        "title": "📊 KLASEMEN",
+        "commands": {}
+      },
+      "jadwal": {
+        "title": "📅 JADWAL",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "bola": 1,
+      "klasemen": 0,
+      "jadwal": 0,
+      "all": 1
+    }
+  },
+  "menuFilm": {
+    "title": "🎬 MENU FILM",
+    "maintenance": false,
+    "sections": {
+      "info": {
+        "title": "📺 INFO FILM",
+        "commands": {
+          "film": {
+            "command": ".film",
+            "example": ".film avengers",
+            "description": "Cari info film",
+            "aliases": [".movieinfo", ".sinopsis"],
+            "maintenance": false
+          }
+        }
+      },
+      "trailer": {
+        "title": "🎥 TRAILER",
+        "commands": {}
+      },
+      "rating": {
+        "title": "⭐ RATING",
+        "commands": {}
+      },
+      "bioskop": {
+        "title": "🎬 BIOSKOP",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "info": 1,
+      "trailer": 0,
+      "rating": 0,
+      "bioskop": 0,
+      "all": 1
+    }
+  },
+  "menuCerita": {
+    "title": "📖 MENU CERITA",
+    "maintenance": false,
+    "sections": {
+      "cerpen": {
+        "title": "📝 CERPEN",
+        "commands": {
+          "cerpen": {
+            "command": ".cerpen",
+            "example": ".cerpen",
+            "description": "Baca cerpen random",
+            "aliases": [".shortstory", ".cerita"],
+            "maintenance": false
+          }
+        }
+      },
+      "novel": {
+        "title": "📚 NOVEL",
+        "commands": {}
+      },
+      "wattpad": {
+        "title": "📖 WATTPAD",
+        "commands": {}
+      },
+      "inspirasi": {
+        "title": "💡 INSPIRASI",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "cerpen": 1,
+      "novel": 0,
+      "wattpad": 0,
+      "inspirasi": 0,
+      "all": 1
+    }
+  },
+  "menuWallpaper": {
+    "title": "🎨 MENU WALLPAPER",
+    "maintenance": false,
+    "sections": {
+      "wallpaper": {
+        "title": "🖼️ WALLPAPER",
+        "commands": {
+          "wallpaper": {
+            "command": ".wallpaper",
+            "example": ".wallpaper anime",
+            "description": "Cari wallpaper keren",
+            "aliases": [".wp", ".bg"],
+            "maintenance": false
+          }
+        }
+      },
+      "hd": {
+        "title": "📸 WALLPAPER HD",
+        "commands": {}
+      },
+      "anime": {
+        "title": "🌸 WALLPAPER ANIME",
+        "commands": {}
+      },
+      "nature": {
+        "title": "🌄 PEMANDANGAN",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "wallpaper": 1,
+      "hd": 0,
+      "anime": 0,
+      "nature": 0,
+      "all": 1
+    }
+  },
+  "menuDewasa": {
+    "title": "🔞 MENU DEWASA",
+    "maintenance": true,
+    "sections": {
+      "dewasa": {
+        "title": "🔞 18+",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "all": 0
+    }
+  },
+  "menuGiveaway": {
+    "title": "🎁 MENU GIVEAWAY",
+    "maintenance": false,
+    "sections": {
+      "giveaway": {
+        "title": "🎁 GIVEAWAY",
+        "commands": {
+          "giveaway": {
+            "command": ".giveaway",
+            "example": ".giveaway",
+            "description": "Info giveaway terbaru",
+            "aliases": [".event", ".hadiah"],
+            "maintenance": false
+          }
+        }
+      },
+      "claim": {
+        "title": "🎫 CLAIM",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "giveaway": 1,
+      "claim": 0,
+      "all": 1
+    }
+  },
+  "menuJasa": {
+    "title": "🤝 MENU JASA",
+    "maintenance": false,
+    "sections": {
+      "jasa": {
+        "title": "🤝 LAYANAN",
+        "commands": {
+          "jasa": {
+            "command": ".jasa",
+            "example": ".jasa",
+            "description": "Info jasa pembuatan bot",
+            "aliases": [".service", ".order"],
+            "maintenance": false
+          }
+        }
+      },
+      "panel": {
+        "title": "🖥️ PANEL",
+        "commands": {}
+      },
+      "domain": {
+        "title": "🌐 DOMAIN",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "jasa": 1,
+      "panel": 0,
+      "domain": 0,
+      "all": 1
+    }
+  },
+  "menuChat": {
+    "title": "💬 MENU CHAT",
+    "maintenance": false,
+    "sections": {
+      "chat": {
+        "title": "💬 CHAT BOT",
+        "commands": {
+          "chat": {
+            "command": ".chat",
+            "example": ".chat halo",
+            "description": "Chat dengan bot",
+            "aliases": [".bot", ".talk"],
+            "maintenance": false
+          }
+        }
+      },
+      "room": {
+        "title": "🏠 CHAT ROOM",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "chat": 1,
+      "room": 0,
+      "all": 1
+    }
+  },
+  "menuCall": {
+    "title": "📞 MENU CALL",
+    "maintenance": true,
+    "sections": {
+      "call": {
+        "title": "📞 CALL",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "all": 0
+    }
+  },
+  "menuInfo": {
+    "title": "ℹ️ MENU INFO",
+    "maintenance": false,
+    "sections": {
+      "info": {
+        "title": "🤖 INFO BOT",
+        "commands": {
+          "infobot": {
+            "command": ".infobot",
+            "example": ".infobot",
+            "description": "Info tentang bot",
+            "aliases": [".info", ".about"],
+            "maintenance": false
+          }
+        }
+      },
+      "owner": {
+        "title": "👤 OWNER",
+        "commands": {}
+      },
+      "speed": {
+        "title": "⚡ SPEED",
+        "commands": {}
+      },
+      "bug": {
+        "title": "🐛 LAPOR BUG",
+        "commands": {}
+      }
+    },
+    "total_commands": {
+      "info": 1,
+      "owner": 0,
+      "speed": 0,
+      "bug": 0,
+      "all": 1
+    }
+  }
 }
