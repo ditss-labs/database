@@ -65,7 +65,7 @@
           "maintenance": false
         },
         "instagram": {
-          "command": ".ig",
+          "command": ".instagram",
           "example": ".ig https://www.instagram.com/p/CxG7Hh9S0J/",
           "description": "Download postingan Instagram (foto/video/reels)",
           "aliases": [".instagram", ".igdl", ".insta"],
@@ -93,8 +93,8 @@
           "maintenance": true 
         },
         "pinterest": {
-          "command": ".pin",
-          "example": ".pin https://pin.it/xyz123",
+          "command": ".pinterestdl",
+          "example": ".pindl https://pin.it/xyz123",
           "description": "Download video/gambar Pinterest",
           "aliases": [".pinterest", ".pindl"],
           "maintenance": false
@@ -127,7 +127,7 @@
       "title": "🎵 MUSIC & AUDIO",
       "commands": {
         "youtube": {
-          "command": ".YouTube",
+          "command": ".youtube",
           "example": ".yt https://youtu.be/dQw4w9WgXcQ",
           "description": "Download YouTube video (MP4/MP3)",
           "aliases": [".youtube", ".ytdl", ".ytmp4", ".ytmp3"],
@@ -166,7 +166,7 @@
           "example": ".lagu tak ingin usai",
           "description": "Cari & download lagu (YouTube Music)",
           "aliases": [".song", ".musik"],
-          "maintenance": false
+          "maintenance": true
         }
       }
     },
@@ -234,7 +234,7 @@
           "example": ".app capcut",
           "description": "Cari link download APK/mod aplikasi",
           "aliases": [".apk", ".mod"],
-          "maintenance": false
+          "maintenance": true
         },
         "all": {
           "command": ".alldl",
@@ -267,24 +267,24 @@
             "example": ".google cara membuat bot wa",
             "description": "Cari informasi di Google",
             "aliases": [".g", ".goog"],
-            "maintenance": false
+            "maintenance": true
           },
           "image": {
             "command": ".image",
             "example": ".image kucing lucu",
             "description": "Cari gambar di Google",
             "aliases": [".img", ".gambar", ".photo"],
-            "maintenance": false
+            "maintenance": true
           },
           "yts": {
-            "command": ".yts",
+            "command": ".youtubesearch",
             "example": ".yts tutorial bot wa",
             "description": "Cari video di YouTube (search)",
             "aliases": [".ytsearch", ".youtube"],
             "maintenance": false
           },
           "tts": {
-            "command": ".tts",
+            "command": ".tiktoksearch",
             "example": ".tts viral fyp",
             "description": "Cari video di TikTok (search)",
             "aliases": [".tiktoksearch", ".ttsearch"],
@@ -310,7 +310,7 @@
         "title": "🎬 MEDIA SEARCH",
         "commands": {
           "igsearch": {
-            "command": ".igsearch",
+            "command": ".instagramsearch",
             "example": ".igsearch kucing",
             "description": "Cari postingan di Instagram (search)",
             "aliases": [".igcari", ".instasearch"],
@@ -321,7 +321,7 @@
             "example": ".fbs viral",
             "description": "Cari video di Facebook (search)",
             "aliases": [".fbsearch", ".facebooksearch"],
-            "maintenance": false
+            "maintenance": true
           },
           "twitters": {
             "command": ".twitters",
@@ -403,7 +403,7 @@
   },
   "menuStalking": {
     "title": "🕵️ MENU STALKING",
-    "maintenance": false,
+    "maintenance": true,
     "sections": {
       "instagram": {
         "title": "📷 INSTAGRAM",
